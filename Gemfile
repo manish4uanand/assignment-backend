@@ -30,6 +30,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise_token_auth', '~> 1.0.0'
 gem 'rack-cors'
 
+gem 'faker', '~> 2.10', '>= 2.10.1'
+gem 'activerecord-import', '~> 1.0', '>= 1.0.4'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

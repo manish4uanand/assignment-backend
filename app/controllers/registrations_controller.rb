@@ -13,7 +13,7 @@ class RegistrationsController < DeviseTokenAuth::RegistrationsController
   private
 
   def user_params
-    params.permit(:name, :email, :password, :role_id)
+    params.permit(:name, :email, :password)
   end
 
 end
